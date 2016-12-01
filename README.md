@@ -1,2 +1,4 @@
 # chromium-vim
-vim plugin for development env setup.
+vim plugin for chromium development env setup, including vim plugin for:
+ * mojo
+ * gn

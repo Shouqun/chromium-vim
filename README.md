@@ -15,3 +15,6 @@ vim plugin for chromium development env setup, including vim plugin for:
 
 ### fidl
 [https://fuchsia.googlesource.com/garnet/+/master/public/lib/fidl/tools/vim/](https://fuchsia.googlesource.com/garnet/+/master/public/lib/fidl/tools/vim/)
+
+### cscope-maps
+[http://cscope.sourceforge.net/cscope_vim_tutorial.html](http://cscope.sourceforge.net/cscope_vim_tutorial.html)

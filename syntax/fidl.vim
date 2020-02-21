@@ -5,7 +5,7 @@
 "
 " Based on the grammar describe in
 "
-"     https://fuchsia.googlesource.com/docs/+/master/development/languages/fidl/reference/grammar.md
+"     https://fuchsia.dev/fuchsia-src/development/languages/fidl/reference/grammar.md
 "
 " There is still some work to be done.
 if !exists("g:main_syntax")
@@ -19,8 +19,7 @@ if !exists("g:main_syntax")
 endif
 
 " Keywords
-syn keyword fidlKeyword as const enum interface library struct union using
-
+syn keyword fidlKeyword as bits compose const enum error library protocol struct table union using xunion
 
 " Types
 syn match fidlType "\<request<@\?[a-zA-Z][a-zA-Z0-9]*\(\.[a-zA-Z][a-zA-Z0-9]*\)*>?\?"
@@ -29,7 +28,7 @@ syn match fidlType "\<handle\>?\?"
 " Exhaustive list of the handle types is listed below.  Highlight anything else
 " as invalid.
 syn match fidlBadType "\<handle<[^>]*>?\?"
-syn match fidlType "\<handle<\(channel\|debuglog\|event\|eventpair\|fifo\|guest\|interrupt\|job\|port\|process\|resource\|socket\|thread\|timer\|vmar\|vmo\)>?\?"
+syn match fidlType "\<handle<\(channel\|debuglog\|event\|eventpair\|fifo\|guest\|interrupt\|iommu\|job\|pager\|pcidevice\|pmt\|port\|process\|profile\|resource\|socket\|suspendtoken\|thread\|timer\|vcpu\|vmar\|vmo\)>?\?"
 
 syn match fidlType "\<string\>\%(:\%(\d\+\|\K\k*\%(\.\K\k*\)*\)\)\??\?"
 syn match fidlType "\<bool\>"

@@ -1,11 +1,11 @@
 # chromium-vim
 vim plugin for chromium development env setup, including vim plugin for:
 
-### mojo
+### gn
 
 [https://gn.googlesource.com/gn/+/master/tools/gn/misc/vim/](https://gn.googlesource.com/gn/+/master/tools/gn/misc/vim/)
 
-### gn
+### mojom
 
 [https://chromium.googlesource.com/chromium/src/+/master/tools/vim/mojom/](https://chromium.googlesource.com/chromium/src/+/master/tools/vim/mojom/)
 
@@ -14,7 +14,7 @@ vim plugin for chromium development env setup, including vim plugin for:
 [https://chromium.googlesource.com/v8/v8/+/master/tools/torque/vim-torque](https://chromium.googlesource.com/v8/v8/+/master/tools/torque/vim-torque)
 
 ### fidl
-[https://fuchsia.googlesource.com/garnet/+/master/public/lib/fidl/tools/vim/](https://fuchsia.googlesource.com/garnet/+/master/public/lib/fidl/tools/vim/)
+[https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/garnet/public/lib/fidl/tools/vim/](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/garnet/public/lib/fidl/tools/vim/)
 
 ### cscope-maps
 [http://cscope.sourceforge.net/cscope_vim_tutorial.html](http://cscope.sourceforge.net/cscope_vim_tutorial.html)
